@@ -1,0 +1,206 @@
+
+li{
+    list-style-type: none;
+    color: white;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+    text-decoration: none;
+    
+   
+}
+.nav-links a{
+    color: white;
+    font-weight: 500;
+}
+.nav-links a:hover{
+    color:rgb(197, 189, 189);
+}
+.logo{
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    padding: 5px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type=checkbox]{
+    display: none;
+}
+.navbar_icon{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+@media(max-width:733px){
+    .menu{
+        display: none;
+        position: absolute;
+        background-color: red;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        margin-top: 15px;
+    }
+    .menu li:hover{
+        display: inline-block;
+        background-color: rgb(221, 215, 214);
+        transition: 0.3s ease;
+        color: black;
+    }
+    .menu li+li{
+        margin-top: 14px;
+
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .navbar_icon{
+        display: block;
+        color: white;
+    }
+    /**abouthead**/
+    .abouthead{
+        font-size:15px;
+    }
+   
+}
+
+@media(max-width:1275px){
+    .location{
+        display: none;
+        position: absolute;
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .navbar_icon{
+        display: block;
+        color: white;
+        float: right;
+    }
+    .menu home{
+        margin-top: 14px;
+
+    }
+   
+    
+   
+}
+
+@media(max-width:1104px){
+    .cars{
+        display: none;
+        position: absolute;
+       
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .navbar_icon{
+        display: block;
+        color: white;
+        float: right;
+    }
+    .menu home{
+        margin-top: 14px;
+
+    }
+   
+}
+
+@media(max-width:1000px){
+    .servies{
+        display: none;
+        position: absolute;
+        
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .navbar_icon{
+        display: block;
+        color: white;
+        float: right;
+    }
+    .menu home{
+        margin-top: 14px;
+
+    }
+   
+}
+
+@media(max-width:1104px){
+    .cars{
+        display: none;
+        position: absolute;
+       
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .navbar_icon{
+        display: block;
+        color: white;
+        float: right;
+    }
+    .menu home{
+        margin-top: 14px;
+
+    }
+   
+   
+}
+
+@media(max-width:850px){
+    .about{
+        display: none;
+        position: absolute;
+        
+    }
+    .menu home{
+        margin-top: 14px;
+
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .navbar_icon{
+        display: block;
+        color: white;
+        float: right;
+    }
+}
+
+@media(max-width:850px){
+    .home{
+        display: none;
+        position: absolute;
+       
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .navbar_icon{
+        display: block;
+        color: white;
+        float: right;
+    }
+    .menu home{
+        margin-top: 14px;
+
+    }
+}
+
+
